@@ -1,6 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+body{
+    background-color: #543855;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23543855' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23513652' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%234e344f' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%234b324c' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23483049' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23452E46' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
 @media (min-width: 541px) {
 
     *{
@@ -9,9 +16,6 @@
         box-sizing: border-box;
         font-family: 'Quicksand', sans-serif;
      
-    }
-    body{
-        background: #543855;
     }
     section{
         position: absolute;
@@ -95,9 +99,6 @@
         font-family: 'Quicksand', sans-serif;
      
     }
-    body{
-        background: #543855;
-    }
     section{
         position: absolute;
         width: 100%;
@@ -180,9 +181,6 @@
         box-sizing: border-box;
         font-family: 'Quicksand', sans-serif;
      
-    }
-    body{
-        background: #543855;
     }
     section{
         position: absolute;
