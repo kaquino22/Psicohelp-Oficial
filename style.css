@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+ 
+}
+body{
+    background: #543855;
+}
+
+section{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    z-index: 9999999999;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    text-align-last: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 4.4em;
+}
+
+header h2{
+    color:#fff;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-top: 0em;
+}
+
+.carrousel{
+    width: 100%;
+    margin-top: -4em;
+    margin-bottom: -2em;
+    z-index: -999999999999;
+}
+.apresentation{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    place-content: center;
+}
+
+.imgBox img{
+    width: 17em;
+    max-width: 250px;
+}
+.imgBox{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+}
+
+.textBox{
+    text-align: center;
+}
+
+.textBox h2{
+    font-size: 3em;
+    font-weight: 900;
+    color:#fff;
+}
+.textBox span{
+    color: #fbb574;
+}
+.textBox p{
+    color: #fff;
+}
+.textBox a{
+    text-decoration: none;
+    padding:  10px 20px;
+    background-color: #fbb574;
+    font-weight: 900;
+    color: #fff;
+    border-radius: 300px;
+}
